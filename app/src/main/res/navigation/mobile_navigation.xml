@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.clone_coove.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:name="com.example.clone_coove.view.HomeFragment"
+        android:label="@string/my_asign"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.clone_coove.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:name="com.example.clone_coove.view.QRCheckFragment"
+        android:label="@string/qr_check"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.clone_coove.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:name="com.example.clone_coove.view.NotificationsFragment"
+        android:label="@string/more_view"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

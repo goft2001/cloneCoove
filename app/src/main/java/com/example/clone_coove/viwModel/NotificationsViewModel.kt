@@ -1,4 +1,4 @@
-package com.example.clone_coove.ui.notifications
+package com.example.clone_coove.viwModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
